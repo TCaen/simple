@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap');
+@import "content.css";
+@import "navbar.css";
+@import "header.css";
+@import "content.css"
+@import "projects.css";
+@import "skills.css";
+@import "buisness_disputes.css";
+@import "intellectual_property.css";
+@import "about.css";
+@import "internet_law.css";
+@import "AL"
+
+/* -------------typo --------------*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /*background: #f7f7f9;*/
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 36px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+ /*------- Annulation des styles a et ul -----*/
+a {
+  text-decoration: none;
+  color: inherit;
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+
+}
+
+ /* container pour s'adapter à la nav bar */
+ .container-fluid {
+  padding: 0;
+ }
+
+ .my-container {
+  margin-left: 200px;
+ }
+
+@media (max-width: 768px) {
+  .my-container{
+    margin-left: 32px;
+  }
+
+}
+ @media(min-width: 1300px) {
+  .my-container {
+    margin-left: 30%;
+    max-width: 850px;
+  }
+ }
+
+.gap {
+  height: 67px;
+}

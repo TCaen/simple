@@ -1,0 +1,44 @@
+.IACL-flexbox {
+ display: flex;
+ margin: 88px;
+}
+
+.IACL {
+  background-image:linear-gradient(180deg, rgba(23,1,1,0.73) 17%, rgba(23,1,1,0.60) 72%), url("images/header.jpg");
+  padding-top: 10px;
+  padding-bottom: 8%;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+  color: white;
+  );
+}
+
+.IACL img {
+  height: 50px;
+  margin: 2px;
+}
+
+/*.stack {
+  border-radius: 5px;
+  background: rgba(0,0,0,0.5);
+  border: solid 2px #1c5163;
+  text-align: center;
+  padding: 15px 10px;
+  margin: 15px;
+}
+
+#technical-stack {
+  margin-left: 75px;
+}*/
+
+@media(max-width: 768px) {
+  .IACL {
+    height: fit-content;
+  }
+
+  .IACL-flexbox {
+    display: block;
+    margin: 0;
+  }

@@ -1,0 +1,43 @@
+.AL-flexbox {
+ display: flex;
+ margin: 88px;
+}
+
+.AL {
+ /* margin-top: -5%;*/
+  padding-top: 4%;
+ padding-bottom: 4%;
+  min-height: 600px;
+  background: #F7F7F9;
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+  z-index: -1;
+}
+
+.AL img {
+  height: 50px;
+  margin: 2px;
+}
+
+/*.stack {
+  border-radius: 5px;
+  background: rgba(0,0,0,0.5);
+  border: solid 2px #1c5163;
+  text-align: center;
+  padding: 15px 10px;
+  margin: 15px;
+}*/
+
+#technical-stack {
+  margin-left: 75px;
+}
+
+@media(max-width: 768px) {
+  .AL {
+    height: fit-content;
+  }
+
+  .AL-flexbox {
+    display: block;
+    margin: 0;
+  }
+}

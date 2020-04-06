@@ -6,10 +6,10 @@
 .intellectual_property {
  /* margin-top: -5%;*/
   padding-top: 4%;
- padding-bottom: 4%;
+  padding-bottom: 4%;
   min-height: 600px;
   background: #F7F7F9;
-  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+  /*clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100;*/
   z-index: -1;
 }
 

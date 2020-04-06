@@ -23,6 +23,7 @@
 
 .navigate {
   padding: inherit;
+  list-style: none;
 }
 
 .navigate li {
@@ -31,6 +32,10 @@
   padding: 20px 10px;
   font-size: 20px;
   color: #e3d9f5;
+}
+
+.navigate ul {
+  list-style: none;
 }
 
 .navigate span {
@@ -52,6 +57,10 @@
   display: inline;
   padding: 5px 2px;
   color: #e3d9f5;
+}
+
+.links ul {
+  list-style: none;
 }
 
 .links i {
